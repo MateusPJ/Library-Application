@@ -18,8 +18,12 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
 
+import br.com.phoebus.capacitacao.entitys.Loan;
 import br.com.phoebus.capacitacao.exception.LoanNotExistException;
 import br.com.phoebus.capacitacao.exception.UserHasLoansException;
+import br.com.phoebus.capacitacao.repositorys.DeleteLoanService;
+import br.com.phoebus.capacitacao.repositorys.LoanRepository;
+import br.com.phoebus.capacitacao.services.DeleteLoanServiceImpl;
 
 @RunWith(JUnitPlatform.class)
 @ExtendWith(MockitoExtension.class)

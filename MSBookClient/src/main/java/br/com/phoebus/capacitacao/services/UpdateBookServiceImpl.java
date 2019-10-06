@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 
 /**
  * 
- * Método responsável por realizar o tratamento das atualizações dos livros.
+ * Classe responsável por realizar o tratamento das atualizações dos livros.
  * 
  * @author Mateus P Jorge
  *

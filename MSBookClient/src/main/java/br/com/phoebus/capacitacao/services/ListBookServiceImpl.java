@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 
 /**
  * 
- * Método responsável por retornar todos os livros cadastrados.
+ * Classe responsável por retornar todos os livros cadastrados.
  * 
  * @author Mateus P Jorge
  *

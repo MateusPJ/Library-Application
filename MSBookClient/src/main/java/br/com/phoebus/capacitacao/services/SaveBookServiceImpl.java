@@ -11,7 +11,7 @@ import lombok.RequiredArgsConstructor;
 
 /**
  * 
- * Método responsável por realizar o tratamento do cadastro dos livros.
+ * Classe responsável por realizar o tratamento do cadastro dos livros.
  * 
  * @author Mateus P Jorge
  *

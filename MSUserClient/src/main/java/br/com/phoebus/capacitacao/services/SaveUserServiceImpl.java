@@ -11,7 +11,7 @@ import lombok.RequiredArgsConstructor;
 
 /**
  * 
- * Método responsável por realizar o tratamento do cadastro dos usuários.
+ * Classe responsável por realizar o tratamento de cadastro dos usuários.
  * 
  * @author Mateus P Jorge
  *

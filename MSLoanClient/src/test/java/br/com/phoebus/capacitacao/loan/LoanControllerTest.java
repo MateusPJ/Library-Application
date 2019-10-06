@@ -26,7 +26,14 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
+import br.com.phoebus.capacitacao.controller.LoanController;
+import br.com.phoebus.capacitacao.entitys.Loan;
+import br.com.phoebus.capacitacao.entitys.LoanRequest;
 import br.com.phoebus.capacitacao.exception.ErrorConvertingObjectException;
+import br.com.phoebus.capacitacao.repositorys.DeleteLoanService;
+import br.com.phoebus.capacitacao.repositorys.ListLoanService;
+import br.com.phoebus.capacitacao.repositorys.SaveLoanService;
+import br.com.phoebus.capacitacao.repositorys.UpdateLoanService;
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(LoanController.class)

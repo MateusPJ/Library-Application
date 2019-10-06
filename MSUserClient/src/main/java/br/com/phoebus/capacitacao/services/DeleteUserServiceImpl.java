@@ -10,7 +10,7 @@ import lombok.AllArgsConstructor;
 
 /**
  * 
- * Método responsável por implementar a exclusão dos usuários.
+ * Classe responsável por implementar a exclusão dos usuários.
  * 
  * @author Mateus P Jorge
  *

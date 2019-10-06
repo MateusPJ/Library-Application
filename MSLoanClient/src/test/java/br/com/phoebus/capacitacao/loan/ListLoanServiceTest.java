@@ -15,7 +15,11 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import br.com.phoebus.capacitacao.entitys.Loan;
 import br.com.phoebus.capacitacao.exception.LoanListIsEmptyException;
+import br.com.phoebus.capacitacao.repositorys.ListLoanService;
+import br.com.phoebus.capacitacao.repositorys.LoanRepository;
+import br.com.phoebus.capacitacao.services.ListLoanServiceImpl;
 
 @RunWith(JUnitPlatform.class)
 @ExtendWith(MockitoExtension.class)

@@ -17,9 +17,13 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
 
-import br.com.phoebus.capacitacao.clients.UserClientRepository;
+import br.com.phoebus.capacitacao.entitys.Loan;
+import br.com.phoebus.capacitacao.entitys.LoanRequest;
 import br.com.phoebus.capacitacao.exception.BookListIsEmptyException;
 import br.com.phoebus.capacitacao.exception.UserNotExistException;
+import br.com.phoebus.capacitacao.repositorys.LoanRepository;
+import br.com.phoebus.capacitacao.repositorys.SaveLoanService;
+import br.com.phoebus.capacitacao.repositorys.UserClientRepository;
 
 @RunWith(JUnitPlatform.class)
 @ExtendWith(MockitoExtension.class)

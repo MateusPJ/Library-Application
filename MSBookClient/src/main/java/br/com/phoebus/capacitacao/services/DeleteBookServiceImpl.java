@@ -10,7 +10,7 @@ import lombok.AllArgsConstructor;
 
 /**
  * 
- * Método responsável por implementar a exclusão dos livros.
+ * Classe responsável por implementar a exclusão dos livros.
  * 
  * @author Mateus P Jorge
  *

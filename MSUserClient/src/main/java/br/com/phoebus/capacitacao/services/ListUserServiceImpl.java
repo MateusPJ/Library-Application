@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 
 /**
  * 
- * Método responsável por retornar todos os usuários cadastrados.
+ * Classe responsável por retornar todos os usuários cadastrados.
  * 
  * @author Mateus P Jorge
  *
