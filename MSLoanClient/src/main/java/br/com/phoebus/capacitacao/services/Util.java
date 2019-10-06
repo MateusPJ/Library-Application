@@ -34,7 +34,6 @@ public class Util {
 
 	public static LoanRequest converterToLoanDTO(Loan loan) {
 		List<BookDTO> listBooksDTO = new ArrayList<>();
-		System.out.println("\n\n\n" + loan.getIdUser());
 		UserDTO userDTO = userClient.existsByUser(loan.getIdUser());
 		for (Long idBook : loan.getIdBooks()) {
 			listBooksDTO.add(bookClient.existsByBook(idBook));
