@@ -6,7 +6,7 @@ import br.com.phoebus.capacitacao.entitys.Book;
 
 /**
  * 
- * Repositório base utilizado para consultas em todos os serviços. 
+ * Repositório base utilizado para consultas em todos os serviços de livro. 
  * 
  * @author Mateus P Jorge
  *

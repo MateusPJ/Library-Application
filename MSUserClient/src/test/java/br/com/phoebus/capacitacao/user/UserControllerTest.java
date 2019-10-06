@@ -26,7 +26,14 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
+import br.com.phoebus.capacitacao.controller.UserController;
+import br.com.phoebus.capacitacao.entitys.User;
+import br.com.phoebus.capacitacao.entitys.UserRequest;
 import br.com.phoebus.capacitacao.exception.ErrorConvertingObjectException;
+import br.com.phoebus.capacitacao.repositorys.DeleteUserService;
+import br.com.phoebus.capacitacao.repositorys.ListUserService;
+import br.com.phoebus.capacitacao.repositorys.SaveUserService;
+import br.com.phoebus.capacitacao.repositorys.UpdateUserService;
 
 @ExtendWith(SpringExtension.class)
 @WebMvcTest(UserController.class)

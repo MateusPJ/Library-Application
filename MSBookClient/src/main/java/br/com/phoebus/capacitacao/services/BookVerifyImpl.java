@@ -8,6 +8,13 @@ import br.com.phoebus.capacitacao.repositorys.BookRepository;
 import br.com.phoebus.capacitacao.repositorys.BookVerify;
 import lombok.RequiredArgsConstructor;
 
+/**
+ * 
+ * Método responsável por retornar um livro cadastrado.
+ * 
+ * @author Mateus P Jorge
+ *
+ */
 @Service
 @RequiredArgsConstructor
 public class BookVerifyImpl implements BookVerify {

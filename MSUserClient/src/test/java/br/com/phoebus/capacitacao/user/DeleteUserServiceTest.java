@@ -16,7 +16,11 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
 
+import br.com.phoebus.capacitacao.entitys.User;
 import br.com.phoebus.capacitacao.exception.UserNotExistException;
+import br.com.phoebus.capacitacao.repositorys.DeleteUserService;
+import br.com.phoebus.capacitacao.repositorys.UserRepository;
+import br.com.phoebus.capacitacao.services.DeleteUserServiceImpl;
 
 @RunWith(JUnitPlatform.class)
 @ExtendWith(MockitoExtension.class)

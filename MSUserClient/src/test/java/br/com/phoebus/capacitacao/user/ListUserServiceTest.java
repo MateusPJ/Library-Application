@@ -15,7 +15,11 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.jupiter.MockitoExtension;
 
+import br.com.phoebus.capacitacao.entitys.User;
 import br.com.phoebus.capacitacao.exception.UserListIsEmptyException;
+import br.com.phoebus.capacitacao.repositorys.ListUserService;
+import br.com.phoebus.capacitacao.repositorys.UserRepository;
+import br.com.phoebus.capacitacao.services.ListUserServiceImpl;
 
 @RunWith(JUnitPlatform.class)
 @ExtendWith(MockitoExtension.class)

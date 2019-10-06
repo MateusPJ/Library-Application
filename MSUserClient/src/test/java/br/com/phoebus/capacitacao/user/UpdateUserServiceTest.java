@@ -16,8 +16,13 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
 
+import br.com.phoebus.capacitacao.entitys.User;
+import br.com.phoebus.capacitacao.entitys.UserRequest;
 import br.com.phoebus.capacitacao.exception.UserInvalid;
 import br.com.phoebus.capacitacao.exception.UserNotExistException;
+import br.com.phoebus.capacitacao.repositorys.UpdateUserService;
+import br.com.phoebus.capacitacao.repositorys.UserRepository;
+import br.com.phoebus.capacitacao.services.UpdateUserServiceImpl;
 
 @RunWith(JUnitPlatform.class)
 @ExtendWith(MockitoExtension.class)
