@@ -16,7 +16,11 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.mockito.junit.jupiter.MockitoSettings;
 import org.mockito.quality.Strictness;
 
+import br.com.phoebus.capacitacao.entitys.Book;
 import br.com.phoebus.capacitacao.exception.BookNotExistException;
+import br.com.phoebus.capacitacao.repositorys.BookRepository;
+import br.com.phoebus.capacitacao.repositorys.DeleteBookService;
+import br.com.phoebus.capacitacao.services.DeleteBookServiceImpl;
 
 @RunWith(JUnitPlatform.class)
 @ExtendWith(MockitoExtension.class)
